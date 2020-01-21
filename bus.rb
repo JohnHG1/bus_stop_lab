@@ -1,15 +1,16 @@
 class Bus
 
-  # attr_reader :route, :destination, :passengers
+  attr_reader :route_number, :destination
 
-  def initialize(route, destination)
-    @route = route
+  def initialize(route_number, destination)
+    @route_number = route_number
     @destination = destination
     @passengers = []
-
   end
+
+
+def route_number(bus)
+  return @bus.destination
 end
 
-def get_route
-  return @route
 end

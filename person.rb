@@ -7,6 +7,14 @@ class Person
     @age  = age
 end
 
+
+
+
+
+
+
+
+
 def get_name()
   return @name
 end
@@ -15,9 +23,6 @@ end
 def get_age()
   return @age
 end
-
-
-
 
 
   end
