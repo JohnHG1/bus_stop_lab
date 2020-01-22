@@ -24,8 +24,11 @@ class BusTest < MiniTest::Test
     assert_equal(22, @bus.number)
   end
 
-  def test_bus_starts_with_no_passengers()
-      assert_equal(0, @bus.passenger_count())
-    end
+  def test_empty_bus()
+   @bus.empty()
+   assert_equal(0, @bus.passenger_count())
+ end
+
+
 
 end

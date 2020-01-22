@@ -17,11 +17,13 @@ class Bus
     return @bus.number
   end
 
-  # def passenger_count(passengers)
-  #   return @passenger.length
+  def passenger_count(passengers)
+    return @passenger.length
+  end
+
+  # def empty()
+  #  @passengers.clear()
   # end
-
-
 
 
 end
